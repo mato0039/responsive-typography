@@ -4,12 +4,17 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+body {
+  margin: 1rem;
+}
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  line-height: 1.5;
 
   color: #222;
 }
@@ -24,14 +29,24 @@ article {
 
 article h1 {
   font-weight: normal;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1rem;
 }
 
 article header p {
   font-style: italic;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+article p {
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 article > p:last-child {
@@ -42,8 +57,14 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+}
+
+article ol {
+  margin: 0 0 1rem 1rem;
+  padding: 0;
 }
