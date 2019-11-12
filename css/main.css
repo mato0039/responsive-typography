@@ -68,3 +68,15 @@ article ol {
   margin: 0 0 1rem 1rem;
   padding: 0;
 }
+
+@media only screen and (38em) {
+  max-width: 100%;
+}
+
+@media only screen and (60em) {
+
+}
+
+@media only screen and (90em) {
+
+}
