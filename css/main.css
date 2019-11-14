@@ -53,7 +53,7 @@ article p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  margin-bottom: 1.4rem;
+  padding-bottom: 1.5rem;
 }
 
 blockquote {
@@ -111,6 +111,11 @@ article ol {
 
   html {
     font-size: 130%;
+  }
+
+  article ol {
+    margin: 0 0 1rem;
+    padding: 0;
   }
 
 }
