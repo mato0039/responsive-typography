@@ -87,6 +87,15 @@ article ol {
     line-height: 1.4;
   }
 
+  article {
+    margin: 0 auto;
+  }
+
+  blockquote {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -94,14 +103,6 @@ article ol {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  article {
-    margin: 0 10rem;
-  }
-
-  blockquote {
-    display: block;
   }
 
 }
