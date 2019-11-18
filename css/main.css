@@ -22,17 +22,11 @@ html {
 
 body {
   margin: 0;
-  margin: 1.3rem;
 }
 
 article {
   max-width: 43em;
-}
-
-article h1 {
-  font-weight: normal;
-  margin: 0;
-  margin-top: 1.3rem;
+  padding: 0 1rem;
 }
 
 article header {
@@ -46,6 +40,12 @@ article header p {
   margin-bottom: 1.3rem;
 }
 
+article h1 {
+  font-weight: normal;
+  margin: 0;
+  margin-top: 1.3rem;
+}
+
 article p {
   margin: 0;
   margin: 1.3rem 0;
@@ -53,7 +53,7 @@ article p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
@@ -68,7 +68,7 @@ blockquote {
 }
 
 article ol {
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 1.3rem 1rem;
   padding: 0;
 }
 
@@ -91,9 +91,33 @@ article ol {
     margin: 0 auto;
   }
 
+  article header {
+    margin-bottom: 1.4rem;
+  }
+
+  article header p {
+    margin-bottom: 1.4rem;
+  }
+
+  article h1 {
+    margin-top: 1.4rem;
+  }
+
+  article p {
+    margin: 1.4rem 0;
+  }
+
   blockquote {
     display: block;
     margin: 0 auto;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
+  article ol {
+    margin: 0 0 1.4rem 1rem;
   }
 
 }
@@ -103,6 +127,35 @@ article ol {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  article header {
+    margin-bottom: 1.5rem;
+  }
+
+  article header p {
+    margin-bottom: 1.5rem;
+  }
+
+  article h1 {
+    margin-top: 1.5rem;
+  }
+
+  article p {
+    margin: 1.5rem 0;
+  }
+
+  blockquote {
+    display: block;
+    margin: 0 auto;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  article ol {
+    margin: 0 0 1.5rem 1rem;
   }
 
 }
